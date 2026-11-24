@@ -1,0 +1,9 @@
+-r requirements.txt
+# These three pins are recorded in the ORIGINAL notebook install cell.
+# They are not an independently verified lock of the executed environment.
+transformers==5.15.0
+accelerate==1.14.0
+bitsandbytes==0.50.0
+torch
+datasets
+tqdm

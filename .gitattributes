@@ -1,0 +1,8 @@
+# Keep documentation and maintained source portable.
+* text=auto eol=lf
+
+# Original research artifacts must retain their exact archived bytes.
+/notebooks/** -text -whitespace
+/results/** -text -whitespace
+/paper/** -text
+/data/** -text

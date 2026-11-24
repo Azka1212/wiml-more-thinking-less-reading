@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="540" viewBox="0 0 1280 540" role="img" aria-labelledby="title desc">
+  <title id="title">More Thinking, Less Reading?</title>
+  <desc id="desc">Separating Reasoning Utility from Evidence Selection in Factual QA. Accepted abstract, WiML Workshop at NeurIPS 2026. Qwen3-4B on PopQA: 39.4 times more generated tokens, with no observed factual-recall gain, and 100 percent adherence to explicit records in tested cases.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101D32"/>
+      <stop offset="1" stop-color="#192C42"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#75E8C6"/>
+      <stop offset="1" stop-color="#A99BFF"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#AFC4E3" stroke-opacity="0.055"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="540" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="540" rx="24" fill="url(#grid)"/>
+  <circle cx="1220" cy="45" r="175" fill="#9B8BEF" opacity="0.045"/>
+  <circle cx="1160" cy="445" r="220" fill="#75E8C6" opacity="0.035"/>
+  <rect x="48" y="40" width="436" height="38" rx="19" fill="#293653" stroke="#A99BFF" stroke-opacity="0.5"/>
+  <circle cx="69" cy="59" r="4" fill="#C2B8FF"/>
+  <text x="83" y="65" fill="#E7E0FF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">ACCEPTED ABSTRACT · WiML @ NeurIPS 2026</text>
+  <text x="48" y="145" fill="#F5F8FC" font-family="Segoe UI, Arial, sans-serif" font-size="53" font-weight="750" letter-spacing="-1.3">More Thinking, Less Reading?</text>
+  <text x="49" y="188" fill="#C0D0E4" font-family="Segoe UI, Arial, sans-serif" font-size="24">Separating Reasoning Utility from Evidence Selection in Factual QA</text>
+  <text x="49" y="230" fill="#80E4C9" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="1.8">SAME MODEL  /  TWO MODES  /  TWO EVALUATION TRACKS</text>
+  <rect x="48" y="266" width="370" height="168" rx="16" fill="#142338" stroke="#39516B"/>
+  <text x="72" y="301" fill="#9CB3CE" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="1.4">GENERATION COST</text>
+  <text x="72" y="366" fill="#80E4C9" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">39.4×</text>
+  <text x="72" y="403" fill="#E2EAF4" font-family="Segoe UI, Arial, sans-serif" font-size="18">more generated tokens with thinking</text>
+  <rect x="436" y="266" width="370" height="168" rx="16" fill="#142338" stroke="#39516B"/>
+  <text x="460" y="301" fill="#9CB3CE" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="1.4">UNTOUCHED FACTUAL RECALL</text>
+  <text x="460" y="357" fill="#C1B6FF" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700">No observed gain</text>
+  <text x="460" y="390" fill="#E2EAF4" font-family="Segoe UI, Arial, sans-serif" font-size="18">10.44% NoThink  /  6.89% Think</text>
+  <text x="460" y="415" fill="#A6BCD4" font-family="Segoe UI, Arial, sans-serif" font-size="15">Accuracy difference not conclusive</text>
+  <rect x="824" y="266" width="408" height="168" rx="16" fill="#142338" stroke="#39516B"/>
+  <text x="848" y="301" fill="#9CB3CE" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="1.4">EXPLICIT-RECORD ADHERENCE</text>
+  <text x="848" y="366" fill="#80E4C9" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">100%</text>
+  <text x="848" y="403" fill="#E2EAF4" font-family="Segoe UI, Arial, sans-serif" font-size="18">both modes, aligned + conflict records</text>
+  <rect x="48" y="465" width="1184" height="2" rx="1" fill="url(#line)" opacity="0.65"/>
+  <text x="49" y="501" fill="#A9BED6" font-family="Segoe UI, Arial, sans-serif" font-size="17">Qwen3-4B · PopQA · 4-bit NF4 · 150 untouched facts + 150 screened-known facts</text>
+</svg>

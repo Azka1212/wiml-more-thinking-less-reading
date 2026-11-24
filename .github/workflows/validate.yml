@@ -1,0 +1,28 @@
+name: Verify archive and saved-results analysis
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-analysis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install CPU analysis dependencies
+        run: python -m pip install -r requirements.txt pytest
+      - name: Verify original artifact checksums
+        run: python tools/verify_archive.py
+      - name: Test analysis and protocol helpers
+        run: python -m pytest -q
+      - name: Recompute results without model downloads
+        run: python scripts/analyze_results.py --results-dir results --output-dir reproduction/ci

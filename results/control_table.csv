@@ -1,0 +1,4 @@
+Condition,NoThink,Think,Think_minus_NoThink
+No context: prior recall,93.11111111111111,41.333333333333336,-51.77777777777778
+Aligned context: adherence,100.0,100.0,0.0
+Conflict context: adherence,100.0,100.0,0.0

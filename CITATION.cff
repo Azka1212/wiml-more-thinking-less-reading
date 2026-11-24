@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: >-
+  If you use this code or these results, please cite the accompanying WiML
+  Workshop at NeurIPS 2026 abstract using the preferred citation below.
+type: software
+title: 'More Thinking, Less Reading? Code and Results Archive'
+authors:
+  - family-names: Ikramullah
+    given-names: Azka
+  - family-names: Hwang
+    given-names: Seong Oun
+repository-code: 'https://github.com/Azka1212/wiml-more-thinking-less-reading'
+url: 'https://github.com/Azka1212/wiml-more-thinking-less-reading'
+abstract: >-
+  Code, original experiment notebook, prediction records, figures, and abstract
+  for More Thinking, Less Reading? Separating Reasoning Utility from Evidence
+  Selection in Factual QA. The study compares Qwen3-4B thinking modes on PopQA
+  factual recall and explicit aligned or counterfactual records. Accepted
+  abstract at WiML Workshop at NeurIPS 2026.
+preferred-citation:
+  type: conference-paper
+  title: 'More Thinking, Less Reading? Separating Reasoning Utility from Evidence Selection in Factual QA'
+  authors:
+    - family-names: Ikramullah
+      given-names: Azka
+    - family-names: Hwang
+      given-names: Seong Oun
+  conference:
+    name: WiML Workshop at NeurIPS 2026
+  year: 2026
+  url: 'https://openreview.net/forum?id=IBSVk8DrQ0'
+  notes: Accepted workshop abstract
+keywords:
+  - factual question answering
+  - reasoning modes
+  - evidence selection
+  - Qwen3
+  - PopQA
+  - reproducibility

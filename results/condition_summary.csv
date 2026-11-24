@@ -1,0 +1,7 @@
+condition,mode,n,mean_generated_tokens,context_adherence_pct,prior_reversion_pct,other_pct
+no_context,NoThink,450,4.16,,93.11111111111111,6.888888888888886
+no_context,Think,450,221.75333333333333,,41.333333333333336,58.666666666666664
+aligned,NoThink,450,3.5,100.0,,0.0
+aligned,Think,450,118.25111111111111,100.0,,0.0
+conflict,NoThink,450,3.6533333333333333,100.0,0.0,0.0
+conflict,Think,450,120.08222222222223,100.0,0.0,0.0

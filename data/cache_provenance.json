@@ -1,0 +1,164 @@
+{
+  "derived_artifact": true,
+  "description": "Independent fact aliases recovered from existing server PopQA Arrow cache; notebook cleaning replicated exactly and rows matched to the original server prediction CSV.",
+  "historical_revision_caveat": "Observed cache refs and file dates support provenance but the original notebook did not pin revisions; cache state does not prove historical generation revision.",
+  "observed_at_server_utc": "2026-11-24T05:56:10.177908+00:00",
+  "dataset_name": "akariasai/PopQA",
+  "dataset_ref_observed": "098765c79ea10a2cb19c828324e33281b8336ec0",
+  "dataset_ref_metadata": {
+    "path": "/home/security/.cache/huggingface/hub/datasets--akariasai--PopQA/refs/main",
+    "size_bytes": 40,
+    "mtime_utc": "2026-08-11T09:57:32.949080+00:00",
+    "sha256": "aa6beea3117745384bbc2baedcb823eed77cbcbc3a6555469a0c5120bc6fd0ad"
+  },
+  "dataset_info": {
+    "description": "",
+    "citation": "",
+    "homepage": "",
+    "license": "",
+    "features": {
+      "id": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "subj": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "prop": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "obj": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "subj_id": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "prop_id": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "obj_id": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "s_aliases": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "o_aliases": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "s_uri": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "o_uri": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "s_wiki_title": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "o_wiki_title": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "s_pop": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "o_pop": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "question": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "possible_answers": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "builder_name": "csv",
+    "dataset_name": "pop_qa",
+    "config_name": "default",
+    "version": {
+      "version_str": "0.0.0",
+      "major": 0,
+      "minor": 0,
+      "patch": 0
+    },
+    "splits": {
+      "test": {
+        "name": "test",
+        "num_bytes": 5572166,
+        "num_examples": 14267,
+        "dataset_name": "pop_qa"
+      }
+    },
+    "download_checksums": {
+      "hf://datasets/akariasai/PopQA@098765c79ea10a2cb19c828324e33281b8336ec0/test.tsv": {
+        "num_bytes": 5205200,
+        "checksum": null
+      }
+    },
+    "download_size": 5205200,
+    "dataset_size": 5572166,
+    "size_in_bytes": 10777366
+  },
+  "dataset_info_metadata": {
+    "path": "/home/security/.cache/huggingface/datasets/akariasai___pop_qa/default/0.0.0/098765c79ea10a2cb19c828324e33281b8336ec0/dataset_info.json",
+    "size_bytes": 1408,
+    "mtime_utc": "2026-08-11T09:57:36.457327+00:00",
+    "sha256": "91ab95735a0e1e7f8b902b4a1687be3e47915cdde4c2cb6a7f2b8c02680211a9"
+  },
+  "arrow_metadata": {
+    "path": "/home/security/.cache/huggingface/datasets/akariasai___pop_qa/default/0.0.0/098765c79ea10a2cb19c828324e33281b8336ec0/pop_qa-test.arrow",
+    "size_bytes": 5593896,
+    "mtime_utc": "2026-08-11T09:57:36.452953+00:00",
+    "sha256": "5aa039dd0c27ae19b1f9d1a664fa4fcae7b73e14f20fc167826fcd1e7fbe1314"
+  },
+  "raw_rows": 14267,
+  "cleaned_rows": 12184,
+  "manifest_rows": 150,
+  "prediction_rows_validated": 900,
+  "row_question_gold_mismatches": 0,
+  "correctness_label_mismatches": 0,
+  "alias_only_correct_predictions": 16,
+  "original_prediction_metadata": {
+    "path": "/home/security/Azka_container/wiml-abstract/grounding_drift_results/independent_factual_predictions.csv",
+    "size_bytes": 459498,
+    "mtime_utc": "2026-08-12T05:16:22.557267+00:00",
+    "sha256": "2cdbc2fadc391163212f7607c08202e5b1b1233fcf19bd9c7f94af361357ad6f"
+  },
+  "original_prediction_sha256_matches_transferred_copy": true,
+  "cleaning_description": "Exact notebook sequence: possible_answers via ast.literal_eval; obj prepended with ordered deduplication; retain subject/relation pairs appearing once; reset_index; retain relations with >=2 distinct objects; reset_index. row_index addresses this cleaned order.",
+  "model_name": "Qwen/Qwen3-4B",
+  "model_ref_observed": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "model_ref_metadata": {
+    "path": "/home/security/.cache/huggingface/hub/models--Qwen--Qwen3-4B/refs/main",
+    "size_bytes": 40,
+    "mtime_utc": "2026-08-11T09:57:46.679950+00:00",
+    "sha256": "c0aa7f98bce7f5cfed644838701e5f65c2ba650aa61825d7107648fae9e1e8ba"
+  },
+  "current_environment_versions_observed": {
+    "datasets": "5.0.1",
+    "pyarrow": "25.0.1",
+    "pandas": "3.0.5",
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.15.0",
+    "accelerate": "1.14.0",
+    "bitsandbytes": "0.50.0"
+  },
+  "environment_caveat": "Versions observed now in existing venv; no assertion all were identical when predictions were generated.",
+  "read_method": "Read-only pyarrow memory_map/ipc and original server CSV; no local prediction payload sent, no datasets.load_dataset, model load, downloads, or server file writes."
+}

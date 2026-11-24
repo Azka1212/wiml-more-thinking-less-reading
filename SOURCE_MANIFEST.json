@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "archived_on": "2026-11-24",
+  "description": "Byte-for-byte archive of all files available in the original wiml-abstract project, plus the supplied abstract PDF. New repository code and documentation are maintained separately.",
+  "original_project_files": [
+    {
+      "source_path": "grounding_drift_results/abstract_architecture_flow.png",
+      "repository_path": "results/abstract_architecture_flow.png",
+      "bytes": 147587,
+      "sha256": "da238d097a2ba594a35d833c66670adf94743af6bec41dc6f74d15802b35f816"
+    },
+    {
+      "source_path": "grounding_drift_results/abstract_combined_table.csv",
+      "repository_path": "results/abstract_combined_table.csv",
+      "bytes": 270,
+      "sha256": "25a27cdd71b89db13e93eb2ecbca412e90353199a02377afe8cd2dd303472394"
+    },
+    {
+      "source_path": "grounding_drift_results/ABSTRACT_WRITING_KIT.md",
+      "repository_path": "results/ABSTRACT_WRITING_KIT.md",
+      "bytes": 6252,
+      "sha256": "ef561c4bcd1c5061d0f5f9d7ae1b33f0ca321997b71997b00ed251d22517739a"
+    },
+    {
+      "source_path": "grounding_drift_results/condition_summary.csv",
+      "repository_path": "results/condition_summary.csv",
+      "bytes": 424,
+      "sha256": "ec6d7a84e02acf7d9e680ef12df322f2c1f40f2f9a7bb598ce83f3b3eff5bd7e"
+    },
+    {
+      "source_path": "grounding_drift_results/conflict_mode_comparison.png",
+      "repository_path": "results/conflict_mode_comparison.png",
+      "bytes": 47505,
+      "sha256": "dedd0b0c6ec54e1a3a80ab6ad97a6f6635b7cfb2bf5e79598b8d331ff390a3fd"
+    },
+    {
+      "source_path": "grounding_drift_results/control_table.csv",
+      "repository_path": "results/control_table.csv",
+      "bytes": 212,
+      "sha256": "cbaccd269dc0927e72c88764e9f51f377b2f3a424b5adae6047a6a433281c5e4"
+    },
+    {
+      "source_path": "grounding_drift_results/independent_factual_predictions.csv",
+      "repository_path": "results/independent_factual_predictions.csv",
+      "bytes": 459498,
+      "sha256": "2cdbc2fadc391163212f7607c08202e5b1b1233fcf19bd9c7f94af361357ad6f"
+    },
+    {
+      "source_path": "grounding_drift_results/independent_factual_recall.png",
+      "repository_path": "results/independent_factual_recall.png",
+      "bytes": 32544,
+      "sha256": "54a5b6103ddbd8fffe07c50b0ddcbab1d5069ba860730edc7a04b98c456263c1"
+    },
+    {
+      "source_path": "grounding_drift_results/manual_audit.csv",
+      "repository_path": "results/manual_audit.csv",
+      "bytes": 326060,
+      "sha256": "0a240263738d8969c831c805fcf333e8caded6e5f129bf65010fb2c46b08883e"
+    },
+    {
+      "source_path": "grounding_drift_results/paired_examples.jsonl",
+      "repository_path": "results/paired_examples.jsonl",
+      "bytes": 47215,
+      "sha256": "a7157928c7f107dff5acb742332a0ae5d2f15130c6a1ba61a8e118e006bbce99"
+    },
+    {
+      "source_path": "grounding_drift_results/paired_transitions.png",
+      "repository_path": "results/paired_transitions.png",
+      "bytes": 47106,
+      "sha256": "1ff8162b2df0e55be016ce5d2a081b286f9ddd293ba66dd6e8a1acf070828529"
+    },
+    {
+      "source_path": "grounding_drift_results/paper_results_table.csv",
+      "repository_path": "results/paper_results_table.csv",
+      "bytes": 150,
+      "sha256": "5b0a0302bcd1bff15afaccc2edb8ee4af923b8542b4cd6adb6c55d45c6738184"
+    },
+    {
+      "source_path": "grounding_drift_results/raw_predictions.csv",
+      "repository_path": "results/raw_predictions.csv",
+      "bytes": 1209897,
+      "sha256": "e359508680a233b60e1d4e672b37ff9fdaddf72fc6b4bda74700f2fe68d0bb78"
+    },
+    {
+      "source_path": "grounding_drift_results/relation_summary.csv",
+      "repository_path": "results/relation_summary.csv",
+      "bytes": 865,
+      "sha256": "e33ddf5dffe65a5e78b50ac69ef01c110621949a05c448d5ee1a3721aee5a4ae"
+    },
+    {
+      "source_path": "grounding_drift_results/screening.csv",
+      "repository_path": "results/screening.csv",
+      "bytes": 280048,
+      "sha256": "8623eb2bf56325ae4fd44f088ff738b4cbf8d4b2797cf7bb6b119359a5103847"
+    },
+    {
+      "source_path": "more_thinking_less_reading_experiment.ipynb",
+      "repository_path": "notebooks/more_thinking_less_reading_experiment.ipynb",
+      "bytes": 174735,
+      "sha256": "a0e51cd95104583b1862dae6e4f162e9a1624482ae72b5c092509f2e3813f73a"
+    }
+  ],
+  "supplied_abstract": {
+    "repository_path": "paper/WiML_More_Thinking_Less_Reading_Clean_Source.pdf",
+    "bytes": 240966,
+    "sha256": "7692efda310c931f65291a739d251a11be0375df868845fc6f5ab0f59c036509"
+  },
+  "external_dependencies_not_bundled": [
+    "Qwen/Qwen3-4B model weights",
+    "Full akariasai/PopQA dataset"
+  ],
+  "original_sources_unavailable": [
+    "Editable abstract/LaTeX source",
+    "Original generator for abstract_architecture_flow.png",
+    "Original generator for abstract_combined_table.csv",
+    "Original generator for ABSTRACT_WRITING_KIT.md"
+  ],
+  "derived_supplements": [
+    {
+      "repository_path": "data/cache_provenance.json",
+      "bytes": 5536,
+      "sha256": "56b9c9cccd009fd529a9686933c50bee7fe0cb28de72571d92932553074f4339",
+      "provenance": "Derived from read-only existing PopQA cache inspection; distinct from original archived files."
+    },
+    {
+      "repository_path": "data/independent_facts.jsonl",
+      "bytes": 36195,
+      "sha256": "980d38437feef60d70b2d5cbf288ff0b01b1d8013613e1a7e510eba6e3352b3b",
+      "provenance": "Derived from read-only existing PopQA cache inspection; distinct from original archived files."
+    }
+  ]
+}

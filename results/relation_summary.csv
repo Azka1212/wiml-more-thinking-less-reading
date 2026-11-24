@@ -1,0 +1,31 @@
+prop,thinking,n,context_adherence,prior_reversion
+author,False,18,100.0,0.0
+author,True,18,100.0,0.0
+capital,False,105,100.0,0.0
+capital,True,105,100.0,0.0
+capital of,False,9,100.0,0.0
+capital of,True,9,100.0,0.0
+color,False,3,100.0,0.0
+color,True,3,100.0,0.0
+composer,False,9,100.0,0.0
+composer,True,9,100.0,0.0
+country,False,138,100.0,0.0
+country,True,138,100.0,0.0
+director,False,9,100.0,0.0
+director,True,9,100.0,0.0
+father,False,6,100.0,0.0
+father,True,6,100.0,0.0
+genre,False,30,100.0,0.0
+genre,True,30,100.0,0.0
+occupation,False,18,100.0,0.0
+occupation,True,18,100.0,0.0
+place of birth,False,21,100.0,0.0
+place of birth,True,21,100.0,0.0
+producer,False,3,100.0,0.0
+producer,True,3,100.0,0.0
+religion,False,18,100.0,0.0
+religion,True,18,100.0,0.0
+screenwriter,False,15,100.0,0.0
+screenwriter,True,15,100.0,0.0
+sport,False,48,100.0,0.0
+sport,True,48,100.0,0.0

@@ -1,0 +1,29 @@
+# Local environments and Python build products
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local credentials and downloaded model/dataset caches
+.env
+.env.*
+!.env.example
+.cache/
+models/
+checkpoints/
+
+# New runs must not overwrite the committed research archive
+reproduced/
+reproduction/
+runs/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
