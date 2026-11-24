@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">More Thinking, Less Reading?</title>
+  <desc id="desc">Separating Reasoning Utility from Evidence Selection in Factual QA. Accepted abstract at WiML Workshop at NeurIPS 2026. A same-model comparison of thinking enabled and disabled.</desc>
+  <defs>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.7" fill="#182321" opacity="0.12"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#182321" flood-opacity="0.055"/></filter>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="468" rx="26"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="470" fill="#F7F4ED"/>
+    <rect x="660" width="540" height="470" fill="#EDE8F7"/>
+    <rect x="660" width="540" height="470" fill="url(#dots)"/>
+    <path d="M660 0V470" stroke="#D7D0DF"/>
+    <circle cx="50" cy="47" r="5" fill="#6D50C7"/>
+    <text x="65" y="52" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.3" fill="#6D50C7">WiML @ NeurIPS 2026 · ACCEPTED ABSTRACT</text>
+    <text x="43" y="154" font-family="Georgia, serif" font-size="68" letter-spacing="-2.8" fill="#182321">More thinking,</text>
+    <path d="M46 238Q294 222 526 236" stroke="#DAD0F1" stroke-width="19" stroke-linecap="round"/>
+    <text x="43" y="232" font-family="Georgia, serif" font-size="68" font-style="italic" letter-spacing="-2.8" fill="#6D50C7">less reading?</text>
+    <text x="48" y="287" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#4D5751">Separating reasoning utility from evidence</text>
+    <text x="48" y="316" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#4D5751">selection in factual QA.</text>
+    <path d="M48 357H603" stroke="#D5D4CA"/>
+    <rect x="48" y="382" width="111" height="34" rx="17" fill="#182321"/>
+    <text x="103.5" y="404" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#F7F4ED">Qwen3-4B</text>
+    <rect x="169" y="382" width="84" height="34" rx="17" fill="#FFFFFF" stroke="#D5D4CA"/>
+    <text x="211" y="404" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#182321">PopQA</text>
+    <text x="271" y="404" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#4D5751">Same weights. Two modes.</text>
+    <g filter="url(#shadow)">
+      <rect x="715" y="62" width="430" height="91" rx="15" fill="#FFFFFF" stroke="#D9D1E7"/>
+      <circle cx="747" cy="95" r="12" fill="#EFEAF8"/>
+      <text x="747" y="100" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#6D50C7">?</text>
+      <text x="773" y="99" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#182321">ONE FACTUAL QUESTION</text>
+      <text x="739" y="129" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#73746F">Compare how the same model answers.</text>
+    </g>
+    <path d="M930 153V184H815V207M930 184H1043V207" fill="none" stroke="#9B8CAF" stroke-width="1.8"/>
+    <circle cx="930" cy="184" r="4" fill="#6D50C7"/>
+    <g filter="url(#shadow)">
+      <rect x="715" y="207" width="200" height="176" rx="15" fill="#FFFFFF" stroke="#B8CDB4"/>
+      <rect x="715" y="207" width="200" height="45" rx="15" fill="#D9F0D7"/>
+      <path d="M715 236V252H915V236" fill="#D9F0D7"/>
+      <text x="736" y="236" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#284A35">Thinking OFF</text>
+      <rect x="737" y="274" width="127" height="6" rx="3" fill="#B5C5B3"/>
+      <rect x="737" y="290" width="94" height="6" rx="3" fill="#B5C5B3"/>
+      <rect x="737" y="326" width="145" height="32" rx="7" fill="#EDF4E9"/>
+      <text x="750" y="347" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#284A35">A concise answer</text>
+      <rect x="943" y="207" width="202" height="176" rx="15" fill="#FFFFFF" stroke="#BDAFDC"/>
+      <rect x="943" y="207" width="202" height="45" rx="15" fill="#DDD3F1"/>
+      <path d="M943 236V252H1145V236" fill="#DDD3F1"/>
+      <text x="964" y="236" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#563A9A">Thinking ON</text>
+      <g fill="#BEB0D8">
+        <rect x="965" y="272" width="151" height="5" rx="2.5"/><rect x="965" y="284" width="135" height="5" rx="2.5"/>
+        <rect x="965" y="296" width="151" height="5" rx="2.5"/><rect x="965" y="308" width="110" height="5" rx="2.5"/>
+        <rect x="965" y="320" width="145" height="5" rx="2.5"/><rect x="965" y="332" width="151" height="5" rx="2.5"/>
+        <rect x="965" y="344" width="129" height="5" rx="2.5"/><rect x="965" y="356" width="146" height="5" rx="2.5"/>
+      </g>
+    </g>
+    <text x="930" y="421" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#6D50C7">Does the extra generation help?</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="468" rx="26" fill="none" stroke="#DED9CF"/>
+</svg>

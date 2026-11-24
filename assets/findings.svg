@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590" role="img" aria-labelledby="title desc">
+  <title id="title">Factual recall and generation cost</title>
+  <desc id="desc">On 150 untouched PopQA facts and 900 predictions, NoThink accuracy is 10.44 percent and Think accuracy is 6.89 percent. Average generated tokens are 6.21 and 244.53, respectively: a 39.4-fold increase. Each panel uses its own zero-based axis. The accuracy difference is statistically inconclusive: 95 percent bootstrap confidence interval minus 7.78 to zero percentage points, paired Wilcoxon p equals 0.078. Both modes follow all tested explicit records, with zero prior reversions in the conflict condition.</desc>
+  <defs>
+    <style>
+      .sans{font-family:'Segoe UI',Arial,sans-serif;fill:#182321}.serif{font-family:Georgia,'Times New Roman',serif;fill:#182321}.muted{fill:#63706A}.caps{font-size:16px;font-weight:700;letter-spacing:2px}.label{font-size:21px}.value{font-size:23px;font-weight:700}.tick{font-size:17px;fill:#63706A}
+    </style>
+  </defs>
+  <rect width="1200" height="590" rx="24" fill="#F7F4ED"/>
+  <text class="sans caps muted" x="48" y="45">THE UNTOUCHED FACTUAL-QA TRACK</text>
+  <text class="serif" x="48" y="94" font-size="38">Factual recall × generation cost</text>
+  <text class="sans muted" x="49" y="127" font-size="20">150 untouched facts · 900 predictions · 3 matched decoding seeds</text>
+
+  <rect x="48" y="155" width="540" height="238" rx="15" fill="#FFFFFF" stroke="#E1E1D7"/>
+  <rect x="612" y="155" width="540" height="238" rx="15" fill="#FFFFFF" stroke="#E1E1D7"/>
+  <text class="sans caps" x="72" y="188">FACTUAL ACCURACY</text>
+  <text class="sans caps" x="636" y="188">GENERATED TOKENS / ANSWER</text>
+  <text class="sans label" x="72" y="240">NoThink</text>
+  <text class="sans label" x="72" y="302">Think</text>
+  <text class="sans label" x="636" y="240">NoThink</text>
+  <text class="sans label" x="636" y="302">Think</text>
+
+  <path d="M192 211V323 M282 211V323 M372 211V323 M462 211V323" stroke="#EBEDE6"/>
+  <path d="M756 211V323 M816 211V323 M876 211V323 M936 211V323 M996 211V323 M1056 211V323" stroke="#EBEDE6"/>
+  <!-- Accuracy: 270 pixels = 12 percentage points. Tokens: 300 pixels = 250 tokens. -->
+  <rect x="192" y="216" width="234.9" height="34" rx="5" fill="#182321"/>
+  <rect x="192" y="278" width="155.025" height="34" rx="5" fill="#6D50C7"/>
+  <rect x="756" y="216" width="7.452" height="34" rx="2" fill="#182321"/>
+  <rect x="756" y="278" width="293.436" height="34" rx="5" fill="#6D50C7"/>
+  <text class="sans value" x="564" y="241" text-anchor="end">10.44%</text>
+  <text class="sans value" x="564" y="303" text-anchor="end" fill="#6D50C7">6.89%</text>
+  <text class="sans value" x="1128" y="241" text-anchor="end">6.21</text>
+  <text class="sans value" x="1128" y="303" text-anchor="end">244.53</text>
+  <path d="M192 327H462 M756 327H1056" stroke="#BFC7BE"/>
+  <text class="sans tick" x="192" y="350" text-anchor="middle">0</text>
+  <text class="sans tick" x="282" y="350" text-anchor="middle">4</text>
+  <text class="sans tick" x="372" y="350" text-anchor="middle">8</text>
+  <text class="sans tick" x="462" y="350" text-anchor="middle">12%</text>
+  <text class="sans tick" x="756" y="350" text-anchor="middle">0</text>
+  <text class="sans tick" x="816" y="350" text-anchor="middle">50</text>
+  <text class="sans tick" x="876" y="350" text-anchor="middle">100</text>
+  <text class="sans tick" x="936" y="350" text-anchor="middle">150</text>
+  <text class="sans tick" x="996" y="350" text-anchor="middle">200</text>
+  <text class="sans tick" x="1056" y="350" text-anchor="middle">250</text>
+  <text class="sans muted" x="72" y="377" font-size="17">Accuracy difference remains inconclusive.</text>
+  <rect x="894" y="363" width="234" height="22" rx="11" fill="#EFE9FB"/>
+  <text class="sans" x="1011" y="379" text-anchor="middle" font-size="16" font-weight="700" fill="#6D50C7">39.4× more generated tokens</text>
+
+  <text class="sans" x="48" y="429" font-size="20">Think − NoThink: −3.56 pp · 95% CI [−7.78, 0.00] · paired Wilcoxon p = 0.078</text>
+  <text class="sans muted" x="48" y="458" font-size="18">Bars use separate zero-based axes. Uncertainty is computed over facts.</text>
+  <rect x="48" y="485" width="1104" height="75" rx="14" fill="#D9F0D7"/>
+  <circle cx="79" cy="522" r="10" fill="#182321"/>
+  <path d="m74 522 3 3 7-7" fill="none" stroke="#D9F0D7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="sans" x="101" y="517" font-size="22" font-weight="700">100% explicit-record adherence in both modes</text>
+  <text class="sans" x="101" y="544" font-size="18">Separate evidence track · aligned and conflicting records · 0 observed prior reversions</text>
+</svg>

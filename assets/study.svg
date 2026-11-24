@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Two evaluation tracks, one model</title>
+  <desc id="desc">The study compares thinking on and off using the same Qwen3-4B weights, four-bit NF4 quantization, PopQA, and three matched decoding seeds. The first track uses 150 untouched facts excluded from screening and measures factual accuracy and generated tokens across 900 predictions. A separate track uses 150 facts screened as known with NoThink, with no context, aligned records, and conflicting records. Its 2700 predictions, including the no-context control, measure explicit-record adherence and prior reversion. The two samples serve different purposes.</desc>
+  <defs>
+    <style>
+      .sans{font-family:'Segoe UI',Arial,sans-serif;fill:#182321}.serif{font-family:Georgia,'Times New Roman',serif;fill:#182321}.muted{fill:#63706A}.caps{font-size:16px;font-weight:700;letter-spacing:2px}.body{font-size:20px}.small{font-size:18px}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="m1 1 6 4-6 4" fill="none" stroke="#87958B" stroke-width="1.8" stroke-linejoin="round"/></marker>
+  </defs>
+  <rect width="1200" height="600" rx="24" fill="#F7F4ED"/>
+  <text class="sans caps muted" x="48" y="45">STUDY DESIGN</text>
+  <text class="serif" x="48" y="94" font-size="38">Two questions. Two separate samples.</text>
+  <text class="sans muted" x="49" y="127" font-size="20">Same Qwen3-4B weights · 4-bit NF4 · PopQA · 3 matched decoding seeds</text>
+
+  <rect x="48" y="158" width="1104" height="172" rx="16" fill="#FFFFFF" stroke="#DEDDE6"/>
+  <rect x="48" y="158" width="9" height="172" rx="4" fill="#6D50C7"/>
+  <text class="sans caps" x="78" y="192" fill="#6D50C7">01 / FACTUAL UTILITY</text>
+  <text class="serif" x="78" y="228" font-size="27">Does thinking help factual recall?</text>
+  <text class="sans body" x="78" y="280" font-weight="700">150 untouched facts</text>
+  <text class="sans small muted" x="78" y="308">Excluded from all screening</text>
+  <path d="M382 281H447" stroke="#87958B" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="466" y="240" width="274" height="76" rx="12" fill="#F1EDFA"/>
+  <text class="sans body" x="603" y="268" text-anchor="middle" font-weight="700">No context</text>
+  <text class="sans small" x="603" y="296" text-anchor="middle">NoThink ↔ Think</text>
+  <path d="M759 281H824" stroke="#87958B" stroke-width="2" marker-end="url(#arrow)"/>
+  <text class="sans body" x="851" y="263" font-weight="700">Accuracy + token cost</text>
+  <text class="sans small muted" x="851" y="290">900 predictions</text>
+  <text class="sans small muted" x="851" y="315">150 facts × 2 modes × 3 seeds</text>
+
+  <rect x="48" y="352" width="1104" height="172" rx="16" fill="#FFFFFF" stroke="#D7E3D5"/>
+  <rect x="48" y="352" width="9" height="172" rx="4" fill="#87B78A"/>
+  <text class="sans caps" x="78" y="386">02 / EVIDENCE SELECTION</text>
+  <text class="serif" x="78" y="422" font-size="27">Which source controls the answer?</text>
+  <text class="sans body" x="78" y="474" font-weight="700">150 screened-known facts</text>
+  <text class="sans small muted" x="78" y="502">Separate NoThink screening</text>
+  <path d="M382 475H447" stroke="#87958B" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="466" y="434" width="274" height="76" rx="12" fill="#EAF4E7"/>
+  <text class="sans" x="603" y="462" text-anchor="middle" font-size="18" font-weight="700">No context · aligned · conflict</text>
+  <text class="sans small" x="603" y="490" text-anchor="middle">NoThink ↔ Think</text>
+  <path d="M759 475H824" stroke="#87958B" stroke-width="2" marker-end="url(#arrow)"/>
+  <text class="sans body" x="851" y="457" font-weight="700">Record vs. known prior</text>
+  <text class="sans small muted" x="851" y="484">2,700 predictions</text>
+  <text class="sans small muted" x="851" y="509">Includes the no-context control</text>
+
+  <text class="sans muted" x="48" y="565" font-size="18">Untouched facts provide the headline recall comparison; screened-known facts test evidence selection.</text>
+</svg>
