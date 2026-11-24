@@ -2,7 +2,7 @@
 
 ## Preserved research archive
 
-The `notebooks/` and `results/` directories preserve every available file from the original `wiml-abstract` project as copied on November 24, 2026: one notebook and fifteen result/figure/documentation files. `paper/` contains the author-supplied one-page abstract PDF. No original source files were deleted as part of preparing this repository.
+The `notebooks/` and `results/` directories preserve every available file from the original `wiml-abstract` project as copied on November 24, 2026: one notebook and fifteen result/figure/documentation files. `paper/` contains the author-supplied one-page abstract PDF. The original project artifacts are preserved in the archive.
 
 [`SOURCE_MANIFEST.json`](../SOURCE_MANIFEST.json) records the original relative paths, repository paths, byte sizes, and SHA-256 hashes. The notebook and result files are preserved byte for byte, including notebook execution outputs. The maintained `src/`, command-line scripts, tests, README, and supporting documentation are new repository additions derived from that research archive.
 
@@ -17,7 +17,7 @@ The supplied PDF title supersedes the notebook's earlier subtitle. Both refer to
 - The historical notebook did not pin model or dataset revision hashes. Existing server cache metadata identifies PopQA revision `098765c79ea10a2cb19c828324e33281b8336ec0` and Qwen3-4B revision `1cfa9a7208912126459214e8b04321603b3df60c`, with cache timestamps on August 11, 2026. The recovered dataset matches all 150 independent facts and all 900 correctness labels. This supports reproduction but does not establish which revision the historical runtime selected; see [`data/cache_provenance.json`](../data/cache_provenance.json).
 - The notebook records Python 3.13.5 and pins Transformers 5.15.0, Accelerate 1.14.0, and bitsandbytes 0.50.0. It does not provide a complete dependency/CUDA environment lock. New validation environment details are distinct from that historical execution environment.
 
-Upstream model, dataset, and third-party package terms continue to apply. No new open-source license is granted at this private review stage.
+Upstream model, dataset, and third-party package terms continue to apply. No new open-source license is granted by publishing this repository.
 
 ## What the saved records establish
 
@@ -40,4 +40,4 @@ The authors identified by the submission owner are **Azka Ikramullah** and **Seo
 
 ## Preservation and review
 
-This repository is a private review copy. Creating or verifying it does not authorize removal of the server project. Before any later source cleanup, review the repository and preserve the original artifacts and the Git commit that contains them.
+This repository is public. The original research artifacts and their SHA-256 hashes remain preserved here and in Git history. Use `SOURCE_MANIFEST.json` and the archive verification tool to check the preserved files.

@@ -124,7 +124,7 @@ Please cite the accepted workshop abstract using [`CITATION.cff`](CITATION.cff) 
 - [Scaling LLM Test-Time Compute Optimally](https://arxiv.org/abs/2408.03314).
 - [DisentQA](https://aclanthology.org/2023.acl-long.559/).
 
-No open-source license has been selected for this private review copy. Upstream model, dataset, and package terms continue to apply.
+No open-source license has been selected. Upstream model, dataset, and package terms continue to apply.
 
 </details>
 
